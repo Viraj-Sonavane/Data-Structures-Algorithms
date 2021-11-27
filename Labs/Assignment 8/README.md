@@ -28,7 +28,7 @@ cerr << "ERROR: command " << command << " is not found." << endl;
 
 #### Problem 6. Returns the leftmost node of the subtree rooted at the node pointed by cur: Tnode* getLeftmost(Tnode *cur)
 
-#### Problem 7. Public and private member functions that remove a node whose key equals to akey, a parameter passed to this function. : void remove(string akey) Tnode* remove(Tnode* cur, string akey)
+#### Problem 7. Public and private member functions that remove a node whose key equals to akey, a parameter passed to this function. : void remove(string akey), Tnode* remove(Tnode* cur, string akey)
 
 
 

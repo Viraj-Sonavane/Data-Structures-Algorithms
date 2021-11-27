@@ -1,4 +1,5 @@
-# Assignment 8 : You will implement BFS and DFS on a directed graph. First, you will write class Graph. In addition, you will implement some member functions that solve specific problems on a directed graph.
+# Assignment 11 : 
+You will implement BFS and DFS on a directed graph. First, you will write class Graph. In addition, you will implement some member functions that solve specific problems on a directed graph.
 
 ----------------------------------------------------------------------------------
 
@@ -7,7 +8,7 @@
 ### To better visualize the difference of the two outputs run this command: vimdiff t01.my tests/t01.out
 ----------------------------------------------------------------------------------
 
-#### Problem 1. This function prints the adjacency lists in this format u: v1 v2 v3where u is the vertex whose Adjacency list is printed, and vertices v1, v2 and v3 are the vertices in the Adjacency list of u. There is a colon after u and then space after the colon, and space after each vertex in Adj[u], and then endl 
+#### Problem 1. This function prints the adjacency lists in this format u: v1 v2 v3 where u is the vertex whose Adjacency list is printed, and vertices v1, v2 and v3 are the vertices in the Adjacency list of u. There is a colon after u and then space after the colon, and space after each vertex in Adj[u], and then endl 
 
 void printGraph();
 
@@ -19,13 +20,14 @@ void printNeighbors(int u);
 
 bool isNeighbor(int u, int v);
 
-#### Problem 4. This function implements BFS algorithm. The parameter s is the source, from which BFS starts running. It initializes distance array to INT_MAX (defined in <climits>, so you need to include <climits>) It initializes parents[i] to i. It uses <queue> of the standard library (include it).To use queue, just do: queue<int> aq; //aq is the name of the queue Uses pseudocode from lecture notes.bfs will print out a node as it pops the node from the queue. cout << node << " " ; After queue is empty, then print out endl
+#### Problem 4. This function implements BFS algorithm. The parameter s is the source, from which BFS starts running. It initializes distance array to INT_MAX (defined in <climits>, so you need to include <climits>) It initializes parents[i] to i. It uses <queue> of the standard library (include it).To use queue, just do: queue<int> aq; //aq is the name of the queue Uses pseudocode from lecture notes.bfs will print out a node as it pops the node from the queue. cout << node << " " ; After queue is empty, then print out endl
 
 void bfs(int s)
 
-#### Problem 5. This function implements DFS algorithm. dfs() initializes arrays colors, parents, stamps, and contains the main for loop, from which dfsVisit is called on each node whose color is White. Parameter u of dfsVisit is the current node, and parameter atime is the current time stamp used. DFS will print out a node inside dfsVisit before processing Adj[u]: cout << u << " " ;After the main for loop, print out endl
+#### Problem 5. This function implements DFS algorithm. dfs() initializes arrays colors, parents, stamps, and contains the main for loop, from which dfsVisit is called on each node whose color is White. Parameter u of dfsVisit is the current node, and parameter atime is the current time stamp used. DFS will print out a node inside dfsVisit before processing Adj[u]: cout << u << " " ; After the main for loop, print out endl
 
-void dfs()void dfsVisit(int u, int &atime)
+void dfs()
+void dfsVisit(int u, int &atime)
 
 #### Problem 6. This function must be called after bfs is called, so that parents array has been calculated by the time printPath is called. Parameter v is the node from which we start backtracking the path from the source s to v. Path is printed in the format: <node><space>…<node><space><endl>
 
@@ -37,7 +39,8 @@ void printLevels(int s)
 
 #### Problem 6. This function uses code of dfs and dfs_visit, but it will modify this code. Whenever a node v in Adj[u] is found such that v is Grey, this means that v is an ancestor of u in the DFS-tree, and that there exists the path from v to u, and edge (u, v) concludes the cycle consisting of this path and edge (u, v). At this point (Grey vertex has been discovered), return true. Stop traversal after true has been returned. If the main for loop has been finished, and every time isCycleVisit has been called, it returned false, then return false. This function does not print anything, just returns Boolean.
 
-bool isCycle()bool isCycleVisit(int u, int & atime)
+bool isCycle()
+bool isCycleVisit(int u, int & atime)
 
 
 
