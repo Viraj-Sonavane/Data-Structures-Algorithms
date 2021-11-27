@@ -1,0 +1,4 @@
+cur->right:80
+elseif rank:0
+else rank:7
+Rank of node 80 is 7
