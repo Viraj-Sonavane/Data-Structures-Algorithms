@@ -25,8 +25,7 @@ bool isNeighbor(int u, int v);
 
 void bfs(int s)
 
-#### Problem 5. This function implements DFS algorithm. dfs() initializes arrays colors, parents, stamps, and contains the main for loop, from which dfsVisit is called on each node whose color is White. Parameter u of dfsVisit is the current node, and parameter atime is the current time stamp used. DFS will print out a node inside dfsVisit before processing Adj[u]: cout << u << " " ;
-After the main for loop, print out endl
+#### Problem 5. This function implements DFS algorithm. dfs() initializes arrays colors, parents, stamps, and contains the main for loop, from which dfsVisit is called on each node whose color is White. Parameter u of dfsVisit is the current node, and parameter atime is the current time stamp used. DFS will print out a node inside dfsVisit before processing Adj[u]: cout << u << " " ; After the main for loop, print out endl
 
 void dfs()
 void dfsVisit(int u, int &atime)
