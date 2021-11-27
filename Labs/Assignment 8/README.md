@@ -1,6 +1,13 @@
 # Assignment 8 : 
 
-Write a new main() function in your main.cpp file. Your program will not use command line arguments for this assignment.• Declare a BST tree inside main().• Declare a string variable called command, and usewhile(cin >> command)loop to read input.• Input file will contain lines, each starting with a specific word, command, that your program will use to call member functions of BST tree. The table below specifies what input in addition to command you need to read in dependent on the value of the command and what member function your program needs to call (on the declared BST tree).• If command is not one of the commands listed in the table below, then print out the following message using cerr :cerr << "ERROR: command " << command << " is not found." << endl;
+Write a new main() function in your main.cpp file. Your program will not use command line arguments for this assignment.
+- Declare a BST tree inside main().
+- Declare a string variable called command, and use
+while(cin >> command)
+loop to read input.
+- Input file will contain lines, each starting with a specific word, command, that your program will use to call member functions of BST tree. The table below specifies what input in addition to command you need to read in dependent on the value of the command and what member function your program needs to call (on the declared BST tree).
+- If command is not one of the commands listed in the table below, then print out the following message using cerr :
+cerr << "ERROR: command " << command << " is not found." << endl;
 
 ----------------------------------------------------------------------------------
 
