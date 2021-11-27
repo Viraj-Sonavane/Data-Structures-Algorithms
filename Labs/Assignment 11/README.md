@@ -8,8 +8,7 @@ You will implement BFS and DFS on a directed graph. First, you will write class 
 ### To better visualize the difference of the two outputs run this command: vimdiff t01.my tests/t01.out
 ----------------------------------------------------------------------------------
 
-#### Problem 1. This function prints the adjacency lists in this format u: v1 v2 v3
-where u is the vertex whose Adjacency list is printed, and vertices v1, v2 and v3 are the vertices in the Adjacency list of u. There is a colon after u and then space after the colon, and space after each vertex in Adj[u], and then endl 
+#### Problem 1. This function prints the adjacency lists in this format u: v1 v2 v3 where u is the vertex whose Adjacency list is printed, and vertices v1, v2 and v3 are the vertices in the Adjacency list of u. There is a colon after u and then space after the colon, and space after each vertex in Adj[u], and then endl 
 
 void printGraph();
 
