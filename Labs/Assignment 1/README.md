@@ -43,3 +43,7 @@ int partitionAround(vector<int> &A, double k);
 #### Problem 9. Are identical not sorted? Given two vectors of integers A and B (not sorted). Write a function that determines whether A is a permutation of B (have  the same elements as B, but the items might be in a different order). Assume that maximum of A is a relatively small number. Your function will return true if A is a permutation of B; otherwise, it will return false.
 
 bool areIdenticalNotSorted(const vector<int> &A, const vector<int> &B);
+
+#### Problem 9. Merge K arrays (20 points). Given total of k queues of integers, each sorted in increasing order. Write a function that merges k queues into a single vector, in which all integers are in increasing order. Your function takes two parameters:- vector< queue<int> > containing k queues of sorted integers, and- vector<int> that is initially empty, and that would contain the merged result of 
+integers in increasing order.You need to write the following function with the exact header as shown:void mergeKqueues(vector<queue<int> > &A, vector<int> &result);
+
