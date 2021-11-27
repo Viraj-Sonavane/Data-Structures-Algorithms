@@ -1,4 +1,5 @@
-# Assignment 11 : You will implement BFS and DFS on a directed graph. First, you will write class Graph. In addition, you will implement some member functions that solve specific problems on a directed graph.
+# Assignment 11 : 
+You will implement BFS and DFS on a directed graph. First, you will write class Graph. In addition, you will implement some member functions that solve specific problems on a directed graph.
 
 ----------------------------------------------------------------------------------
 
