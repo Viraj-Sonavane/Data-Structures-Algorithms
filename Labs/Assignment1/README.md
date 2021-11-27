@@ -1,6 +1,6 @@
 # Assignment 1
 
-## Problem 1. Find min, max, average. Given a vector A of integers, find the statistics: min and max integer and calculate the average.
+### Problem 1. Find min, max, average. Given a vector A of integers, find the statistics: min and max integer and calculate the average.
 
 void printStat(const vector<int> &A);
 
