@@ -21,8 +21,7 @@ void printNeighbors(int u);
 
 bool isNeighbor(int u, int v);
 
-#### Problem 4. This function implements BFS algorithm. The parameter s is the source, from which BFS starts running. It initializes distance array to INT_MAX (defined in <climits>, so you need to include <climits>) It initializes parents[i] to i. It uses <queue> of the standard library (include it).To use queue, just do: queue<int> aq; //aq is the name of the queue Uses pseudocode from lecture notes.
-bfs will print out a node as it pops the node from the queue. cout << node << " " ; After queue is empty, then print out endl
+#### Problem 4. This function implements BFS algorithm. The parameter s is the source, from which BFS starts running. It initializes distance array to INT_MAX (defined in <climits>, so you need to include <climits>) It initializes parents[i] to i. It uses <queue> of the standard library (include it).To use queue, just do: queue<int> aq; //aq is the name of the queue Uses pseudocode from lecture notes.bfs will print out a node as it pops the node from the queue. cout << node << " " ; After queue is empty, then print out endl
 
 void bfs(int s)
 
