@@ -14,15 +14,15 @@
 
 #### Part 3 : 
 
-- Add an integer size as a data member to Tnode class; the non-default constructor of the class will initialize size to 1. This data member, size, will be stored and maintained at each node. The meaning of size at any node i is the total number of nodes in the subtree rooted at i. When the constructor is called a new node is created in the tree, and this new node is the only node in the subtree rooted at this node, so the constructor initializes size at this node to 1.
+1. Add an integer size as a data member to Tnode class; the non-default constructor of the class will initialize size to 1. This data member, size, will be stored and maintained at each node. The meaning of size at any node i is the total number of nodes in the subtree rooted at i. When the constructor is called a new node is created in the tree, and this new node is the only node in the subtree rooted at this node, so the constructor initializes size at this node to 1.
 
-- You need to update your code for insert and remove to update size on each node on the path from the root to the new node (or to the removed node); this could be something similar to how you updated height – update function must run in constant time (this is not a recursive function, it should take just a few basic operations).
+2. You need to update your code for insert and remove to update size on each node on the path from the root to the new node (or to the removed node); this could be something similar to how you updated height – update function must run in constant time (this is not a recursive function, it should take just a few basic operations).
 
-- returns size of the subtree rooted at the parameter cur (think what should be size of a subtree rooted at node that is NULL, i.e. if the parameter cur is NULL):     int getSize(Tnode* cur)  
+3. returns size of the subtree rooted at the parameter cur (think what should be size of a subtree rooted at node that is NULL, i.e. if the parameter cur is NULL):     int getSize(Tnode* cur)  
 
-- Updates the size of the subtree rooted at cur, use the size of left and right children:  void updateSize(Tnode *cur)
+4. Updates the size of the subtree rooted at cur, use the size of left and right children:  void updateSize(Tnode *cur)
 
-- Traverses the tree using in-order traversal and prints size at each node (same format as printing height):  void printSize() ,void printSize(Tnode *cur)
+5. Traverses the tree using in-order traversal and prints size at each node (same format as printing height):  void printSize() ,void printSize(Tnode *cur)
 
 #### Part 4 : 
 
