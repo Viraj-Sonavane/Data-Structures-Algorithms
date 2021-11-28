@@ -27,7 +27,7 @@ void printBF(Tnode *cur)
 
 #### Problem 5. Update insert member functions to support balance of an AVL-tree (you need to update both public and private insert member functions).
 
-#### Problem 6. Update main.cpp – you only need to add to the main.cpp of Assignment 6 two lines: call function printBF() on BST after it calls printHeight(). Make sure there is endl printed after printHeight() and after pringBF().
+#### Problem 6. Update main.cpp – you only need to add to the main.cpp : call function printBF() on BST after it calls printHeight(). Make sure there is endl printed after printHeight() and after pringBF().
 
 
 
