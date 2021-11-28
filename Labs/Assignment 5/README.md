@@ -20,15 +20,15 @@ void readFromFile(string &S, string filename)
 
 #### Problem 2.Function convertToLower will take a string S passed by reference as a parameter and will convert all the characters in S to lower case (you may use std function tolower).
 
-void convertToLower(string &S)
+> void convertToLower(string &S)
 
 #### Problem 3. Function lessThan will take as parameters a constant string passed by reference S, and two integers, first and second, the starting indices of two suffixes in S. This function will compare the two suffixes of S starting at their starting positions and to the end of S one character at a time. The function will return true if the suffix starting at first is less than the suffix starting at position second.
 
-bool lessThan(const string &S, int first, int second)
+> bool lessThan(const string &S, int first, int second)
 
 #### Problem 4. Function partition that takes as parameters (1) string S of size n, passed constant by reference (2) vector indices of integers of size n, where each integer is the starting position of a suffix in S; indices are passed by reference (3) integers low and high, the start and the end indices of a given range; and (4) an integer pivotIndex, which is an arbitrary index of the vector indices.
 
-int partition(const string &S, vector<int> &indices, int low, int high, int pivotIndex)
+> int partition(const string &S, vector<int> &indices, int low, int high, int pivotIndex)
 
 #### Problem 5.
 
