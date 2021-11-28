@@ -23,6 +23,7 @@ Objective: Make BST class to behave as balanced BST (i.e. as AVL-tree).
 #### Problem 4. Public and private member functions that print balanced factors of the nodes in AVL-tree using in-order traversal (left, cur, right).
 
 > void printBF()
+
 > void printBF(Tnode *cur)
 
 #### Problem 5. Update insert member functions to support balance of an AVL-tree (you need to update both public and private insert member functions).
