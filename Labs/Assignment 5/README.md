@@ -16,7 +16,7 @@ Overview:
 
 #### Problem 1. Function readFromFile will take as a parameter an empty string S by reference, and a string, name of a file. This function will open the given file, and will read all the lines from the file and concatenate the lines into S. At the end of the function, S will be the concatenation of all lines from the given file.
 
-void readFromFile(string &S, string filename)
+> void readFromFile(string &S, string filename)
 
 #### Problem 2.Function convertToLower will take a string S passed by reference as a parameter and will convert all the characters in S to lower case (you may use std function tolower).
 
