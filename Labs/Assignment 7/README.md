@@ -10,20 +10,20 @@ Objective: Make BST class to behave as balanced BST (i.e. as AVL-tree).
 
 #### Problem 1. A private member function that returns the height of the node pointed to by the pointer cur passed as a parameter to this function. This function must run in O(1)-time.
 
-int getHeight(Tnode* cur)
+> int getHeight(Tnode* cur)
 
 #### Problem 2.Updates the height of the current node pointed by the pointer cur. This function must run in O(1)-time.
 
-void updateHeight(Tnode *cur)
+> void updateHeight(Tnode *cur)
 
 #### Problem 3. Calculates and returns the balance factor of the current node pointed by cur; balance factor is defined as the height of the left sub-tree of the current node minus the height of the right sub-tree of the current node. This function must run in O(1)-time.
 
-int balanceFactor(Tnode *cur)
+> int balanceFactor(Tnode *cur)
 
 #### Problem 4. Public and private member functions that print balanced factors of the nodes in AVL-tree using in-order traversal (left, cur, right).
 
-void printBF()
-void printBF(Tnode *cur)
+> void printBF()
+> void printBF(Tnode *cur)
 
 #### Problem 5. Update insert member functions to support balance of an AVL-tree (you need to update both public and private insert member functions).
 
