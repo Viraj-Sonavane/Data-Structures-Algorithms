@@ -30,16 +30,16 @@ Step 2. Solve the following problems using Ugraph. You may add any member functi
 ----------------------------------------------------------------------------------
 
     Problem 1: Given an undirected graph G and two vertices u and v of G, design an algorithm that will return true if there are two distinct paths from u to v in G and will print these two paths; otherwise, it will return false and will not print anything. You will need to write the following public member function (with exact name, parameters, return type):
-    bool distinctPaths(int u, int v).
+> bool distinctPaths(int u, int v).
 
     Problem 2: Given an undirected connected graph G, find and print all bridge edges of G.You will need to write the following public member function: 
-    void printBridges()
+> void printBridges()
 
     Problem 3: Given an undirected graph G, find all connected components of G and print out the vertices in each component on a separate line. The order of printing is the following: all vertices in ConnectedComponent with ID 0 on the first line, nodes in Connected Component with ID 1 on the second line, and so on. You need to write the following public member function: 
-    void printCC()
+> void printCC()
 
     Problem 4: Given an undirected connected graph G, design an algorithm that returns true if it is possible to color all vertices of G in two colors, Red and Blue, such that if there is an edge (u, v) in G, then u and v must be colored with different colors. Your program must contain the following member function: 
-    bool twoColoring()
+> bool twoColoring()
 
 
 
